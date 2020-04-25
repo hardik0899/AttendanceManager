@@ -71,7 +71,7 @@ dependencies {
     implementation 'androidx.fragment:fragment-ktx:1.2.4'
 
     // Coroutines
-    api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.5'
+    api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.5-native-mt-1.3.71-release-429'
 
 
     // UI
