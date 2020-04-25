@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.hardik.attendancemanager">
+
+    <application
+        android:name="android.hardik.attendancemanager.AttendanceManagerApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-library android:name="android.test.runner"
+            android:required="false"/>
+        <activity android:name="android.hardik.attendancemanager.activities.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="android.hardik.attendancemanager.activities.timetable.TimeTableActivity"
+            android:label="@string/timetable_activity"
+            android:parentActivityName="android.hardik.attendancemanager.activities.main.MainActivity"/>
+        <activity android:name="android.hardik.attendancemanager.activities.markattendance.MarkAttendanceActivity"
+            android:label="@string/mark_attendance_activity"/>
+    </application>
+
+</manifest>

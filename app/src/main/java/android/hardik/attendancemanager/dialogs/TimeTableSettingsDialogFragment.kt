@@ -1,0 +1,3 @@
+package android.hardik.attendancemanager.dialogs
+
+class TimeTableSettingsDialogFragment
