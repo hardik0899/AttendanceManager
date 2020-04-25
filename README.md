@@ -1,2 +1,3 @@
 # AttendanceManager
-android app to keep track of class attendance
+
+Simple Attendence Manager Android Application Comes handy for College Students to maintain a record of Attendence for each subject.
